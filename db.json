@@ -1,0 +1,189 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "user_uuid": "960c35a2-1532-455d-a3f0-ab1b7b165444",
+      "username": "Code With Melqui",
+      "handle": "melqui",
+      "bio": "Code just like your computer",
+      "link": "https://melquine.github.io/React-proyecto/",
+      "img": "https://avatars.githubusercontent.com/u/91773717?v=4",
+      "instagram_url": "https://melquine.github.io/React-proyecto/",
+      "followers": [
+        {
+          "user_uuid": "d02b0d31-090e-4b08-a89c-af7c8cb29fd4"
+        },
+        {
+          "user_uuid": "b591f35d-0942-4c63-9e6c-0c90a1a095c8"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "user_uuid": "d02b0d31-090e-4b08-a89c-af7c8cb29fd4",
+      "username": "Sell cars with Carlos",
+      "handle": "carlos",
+      "bio": "I love cars",
+      "link": "https://melquine.github.io/React-proyecto/",
+      "img": "https://img.freepik.com/free-photo/side-view-portrait-happy-smiling-man_171337-4839.jpg?t=st=1690049173~exp=1690049773~hmac=c86c96fc44c5ec80fc7d3a79fc251724e3a9e4fef7123fe09e222adda86ad821",
+      "instagram_url": "https://www.instagram.com/carlos/",
+      "followers": [
+        {
+          "user_uuid": "960c35a2-1532-455d-a3f0-ab1b7b165444"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "user_uuid": "b591f35d-0942-4c63-9e6c-0c90a1a095c8",
+      "username": "Sell clothes with Cristal",
+      "handle": "cristal",
+      "bio": "I just love clothes ",
+      "link": "https://melquine.github.io/React-proyecto/",
+      "img": "https://img.freepik.com/free-photo/young-female-entrepreneur-smiling-camera-looking-confident-standing-white-background_176420-52094.jpg?w=1380&t=st=1690048449~exp=1690049049~hmac=d81860d32352045bfbdb888242ab8489ae47c7cfc0464e6bb29882e1612e8734",
+      "instagram_url": "https://www.instagram.com/cristal/",
+      "followers": [
+        {
+          "user_uuid": "960c35a2-1532-455d-a3f0-ab1b7b165444"
+        }
+      ]
+    }
+  ],
+  "threads": [
+    {
+      "id": 1,
+      "timestamp": "Thu Jul 20 2023 10:08:40 GMT-0600 (Central Standard Time)",
+      "thread_from": "960c35a2-1532-455d-a3f0-ab1b7b165444",
+      "thread_to": null,
+      "reply_to": null,
+      "text": "Hello, world (of threads)",
+      "likes": [
+        {
+          "user_uuid": "b591f35d-0942-4c63-9e6c-0c90a1a095c8"
+        },
+        {
+          "user_uuid": "b591f35d-0942-4c63-9e6c-0c90a1a095c8"
+        },
+        {
+          "user_uuid": "960c35a2-1532-455d-a3f0-ab1b7b165444"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "timestamp": "Thu Jul 20 2023 11:20:40 GMT-0600 (Central Standard Time)",
+      "thread_from": "960c35a2-1532-455d-a3f0-ab1b7b165444",
+      "thread_to": null,
+      "reply_to": 1,
+      "text": "Awesome thread",
+      "likes": [
+        {
+          "user_uuid": "960c35a2-1532-455d-a3f0-ab1b7b165444"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "timestamp": "Thu Jul 20 2023 11:50:40 GMT-0600 (Central Standard Time)",
+      "thread_from": "960c35a2-1532-455d-a3f0-ab1b7b165444",
+      "thread_to": null,
+      "reply_to": null,
+      "text": "Another one!",
+      "likes": [
+        {
+          "user_uuid": "960c35a2-1532-455d-a3f0-ab1b7b165444"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "timestamp": "Thu Jul 20 2023 12:50:40 GMT-0600 (Central Standard Time)",
+      "thread_from": "d02b0d31-090e-4b08-a89c-af7c8cb29fd4",
+      "thread_to": null,
+      "reply_to": null,
+      "text": "Testing thread",
+      "likes": []
+    },
+    {
+      "id": 5,
+      "timestamp": "Thu Jul 20 2023 12:51:40 GMT-0600 (Central Standard Time)",
+      "thread_from": "b591f35d-0942-4c63-9e6c-0c90a1a095c8",
+      "thread_to": "d02b0d31-090e-4b08-a89c-af7c8cb29fd4",
+      "reply_to": 3,
+      "text": "I love this app ❤️",
+      "likes": []
+    },
+    {
+      "timestamp": "2023-07-23T17:09:45.187Z",
+      "thread_from": "960c35a2-1532-455d-a3f0-ab1b7b165444",
+      "thread_to": "960c35a2-1532-455d-a3f0-ab1b7b165444",
+      "reply_to": 1,
+      "text": "Hello!!",
+      "likes": [],
+      "id": 6
+    },
+    {
+      "timestamp": "2023-07-23T17:10:17.621Z",
+      "thread_from": "960c35a2-1532-455d-a3f0-ab1b7b165444",
+      "thread_to": "960c35a2-1532-455d-a3f0-ab1b7b165444",
+      "reply_to": 3,
+      "text": "How are you?",
+      "likes": [],
+      "id": 7
+    },
+    {
+      "timestamp": "2023-07-23T18:32:41.072Z",
+      "thread_from": "960c35a2-1532-455d-a3f0-ab1b7b165444",
+      "thread_to": "960c35a2-1532-455d-a3f0-ab1b7b165444",
+      "reply_to": 3,
+      "text": "Heeeeey",
+      "likes": [],
+      "id": 8
+    },
+    {
+      "timestamp": "2023-07-23T18:39:12.790Z",
+      "thread_from": "960c35a2-1532-455d-a3f0-ab1b7b165444",
+      "thread_to": "960c35a2-1532-455d-a3f0-ab1b7b165444",
+      "reply_to": 1,
+      "text": "Hi",
+      "likes": [],
+      "id": 9
+    },
+    {
+      "timestamp": "2023-07-23T18:41:59.029Z",
+      "thread_from": "960c35a2-1532-455d-a3f0-ab1b7b165444",
+      "thread_to": "960c35a2-1532-455d-a3f0-ab1b7b165444",
+      "reply_to": 1,
+      "text": "Nice!",
+      "likes": [],
+      "id": 10
+    },
+    {
+      "timestamp": "2023-07-23T18:43:39.872Z",
+      "thread_from": "960c35a2-1532-455d-a3f0-ab1b7b165444",
+      "thread_to": "960c35a2-1532-455d-a3f0-ab1b7b165444",
+      "reply_to": 3,
+      "text": "HEEEEEYYYY!!!",
+      "likes": [],
+      "id": 11
+    },
+    {
+      "timestamp": "2023-07-23T18:45:05.466Z",
+      "thread_from": "960c35a2-1532-455d-a3f0-ab1b7b165444",
+      "thread_to": "960c35a2-1532-455d-a3f0-ab1b7b165444",
+      "reply_to": 3,
+      "text": "Awesome!!",
+      "likes": [],
+      "id": 12
+    },
+    {
+      "timestamp": "2023-07-31T03:42:00.441Z",
+      "thread_from": "960c35a2-1532-455d-a3f0-ab1b7b165444",
+      "thread_to": "960c35a2-1532-455d-a3f0-ab1b7b165444",
+      "reply_to": 1,
+      "text": "hellooooo",
+      "likes": [],
+      "id": 13
+    }
+  ]
+}
